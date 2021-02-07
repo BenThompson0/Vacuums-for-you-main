@@ -1,0 +1,254 @@
+/*
+Vacuums for you CSS file
+v1
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+p, a {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/* Nav */
+
+.navbar {
+    padding-top: 29px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.text-purple {
+    color: #0B75F1;
+    font-weight: 600;
+}
+
+.navbar-custom a{
+    color: black;
+    background-color: transparent;
+}
+
+.navbar-custom a:hover {
+    color: #0B75F1;
+}
+
+.bg-custom {
+    color: black;
+    background-color: transparent;
+}
+
+.navbar-nav > .active > a {
+    color: #0B75F1;
+}
+
+.nav-line {
+    color: #D0CDCD;
+}
+
+
+/* Main Page */
+
+/* Welcome Main */
+
+.welcome-main {
+    padding-top: 10%;
+}
+
+.main-left {
+    font-weight: 300;
+}
+
+.text-purple-light {
+    color: #0B75F1;
+    font-weight: 300;
+}
+
+.section-2-main {
+    background-color: #EFEFEF;
+}
+
+.section-3-main {
+    background-color: white;
+}
+
+/* Shop by Type */
+
+.main-by-type-thub {
+    width: 230px;
+}
+
+.main-by-type-thub {
+    width: 33.3%;
+    float: left;
+}
+  
+img {
+    border: 0 none;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+/* Shop */
+
+
+
+/* About Us */
+
+
+
+/* Contact us */
+
+
+/* Buttons */
+
+.btn-purple-solid {
+    padding: 10px 40px 10px 40px;
+    background-color: #0B75F1;
+    color: white;
+    border: #0B75F1 solid 1px;
+    border-radius: 0px;
+}
+
+.btn-purple-solid:hover {
+    background-color: white;
+    color: #0B75F1;
+    border: #0B75F1 solid 1px;
+}
+
+.btn-purple-light {
+    padding: 10px 40px 10px 40px;
+    background-color: transparent;
+    color: #0B75F1;
+    border: #0B75F1 solid 1px;
+    border-radius: 0px;
+}
+
+.btn-purple-light:hover {
+    padding: 10px 40px 10px 40px;
+    background-color: #0B75F1;
+    color: white;
+    border: #0B75F1 solid 1px;
+    border-radius: 0px;
+}
+
+/* Img */
+
+.main-imgs {
+    width: 540px; /* width of container */
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(206, 206, 206));
+    filter: drop-shadow(5px 5px 5px rgb(206, 206, 206));
+}
+
+/* Bottom Grabber */
+
+.bottom-grabber {
+    background-color: #F2F2F2;
+}
+
+
+/* Mobile Responsive */
+
+.mobile {
+    display: block; 
+}
+
+.main-illustration {
+    display: block;
+}
+
+@media screen and (max-width: 992px){
+    .mobile {
+        display: none;
+    }
+    .main-illustration {
+        display: none;
+    }
+    .main-imgs {
+        width: 450px;
+    }
+}
+
+/* Forms */
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter .content h2 {
+    color: #ffffff;
+    margin-bottom: 40px; 
+}
+
+.newsletter .content .form-control {
+    height: 50px;
+    border: transparent;
+    border-bottom: white solid 2px;
+    color: white;
+    background-color: transparent;
+    border-radius:0;
+}
+
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    color: #fff;
+    border-bottom: white solid 2px;
+    border-left: white solid 2px;
+    padding: 0px 20px 0px 20px;
+    font-weight:600;
+}
+
+.newsletter .content .form-control:active  {
+    height: 50px;
+    border: transparent;
+    border-bottom: #0B75F1 solid 2px;
+    color: white;
+    background-color: transparent;
+    border-radius:0;
+}
+
+
+/* Footer */
+
+footer {
+    color: white;
+}
+
+.social-footer {
+    width: 85px;
+    height: 85px;
+}
+
+.social-footer:hover {
+    color: #0B75F1;
+}
+
+.i.fab:hover {
+    color: #0B75F1;
+}

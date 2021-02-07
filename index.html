@@ -1,0 +1,184 @@
+<!--
+
+  For use on Vacuums for you
+
+  Author: Benjamin Thompson
+  Version: 1
+
+-->
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <title>Vaccums for you</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-custom bg-custom">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="text-purple">Vacuums</span> for you</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="100-w">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <hr class="nav-line mobile">
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="welcome-main pb-5">
+          <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Assets/img/carousel/img1.jpg" class="d-block w-100" alt="Vacuum">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Assets/img/carousel/img2.jpg" class="d-block w-100" alt="Vacuum">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Assets/img/carousel/img1.jpg" class="d-block w-100" alt="Vacuum">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="main-products pt-5 pb-5">
+          <h3 class="text-center">Shop by Type</h3>
+          <div class="card " style="width: 18rem;">
+            <img src="Assets/img/products/canister.png" class="card-img-top" alt="Canister Vaccum">
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="section-2-main mt-5">
+          <div class="container">
+            <div class="row pt-5 pb-5">
+              <div class="col-md-6">
+                <img class="main-imgs mx-auto d-block" src="assets/img/vacuum-cleaning.jpg" alt="Suckton-in-action">
+              </div>
+              <div class="col-md-6">
+                <p class="pt-5">Our vacuums have a phantom power sucking system that means all of our vacuums can suck up all of those crumbs on all floors including carpets, laminate and more</p>
+                <a href="#" class="btn btn-purple-light mt-3">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="section-3-main mt-2">
+          <div class="container">
+            <div class="row pt-1 pb-5">
+              <div class="col-md-6 pb-5">
+                <p class="pt-5">All of our vacuums have an easy to empty soluction so no bags or mess when emptying.</p>
+                <a href="#" class="btn btn-purple-light mt-3">Learn More</a>
+              </div>
+              <div class="col-md-6">
+                <img class="main-imgs mx-auto d-block" src="assets/img/bin.png" alt="Bin">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-lg-start">
+      <div class="p-5">
+        <div class="row">
+          <div class="col-lg-9 col-md-12 mb-4 mb-md-0">
+            <div class="content">
+              <div class="newsletter">
+                <div class="row">
+                <div class="col-md-6">
+                  <div class="content">
+                    <h5>Sign up to our Newsletter</h5>
+                    <form id="newsletter-form" name="newsletter-form" action="newsletter.php" method="POST">
+                      <div class="input-group">
+                        <input type="text" id="email-newsletter" name="email" class="form-control" placeholder="Your email">
+                          <span class="input-group-btn">
+                            <button class="btn" type="submit">Submit</button>
+                          </span>
+                      </div>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pt-5">
+              <a href="https://www.facebook.com" target="_blank" class=""><i style="color: white;" class="fab fa-facebook-f social-footer fa-2x"></i></a>
+              <a href="https://www.youtube.com" target="_blank" class=""><i style="color: white;" class="fab fa-youtube social-footer fa-2x"></i></a>
+              <a href="https://twitter.com" target="_blank" class=""><i style="color: white;" class="fab fa-twitter social-footer fa-2x"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Links</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#!" class="text-light">Home</a></li>
+              <li><a href="#!" class="text-light">Shop</a></li>
+              <li><a href="#!" class="text-light">About Us</a></li>
+              <li><a href="#!" class="text-light">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-3">
+        <hr>
+        Copyright 2021 Vacuums for you
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
